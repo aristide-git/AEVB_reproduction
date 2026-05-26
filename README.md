@@ -15,9 +15,9 @@ Reproduction of *Auto-Encoding Variational Bayes* (VAE) for the ASI course at EU
 ```
 vae_kaggle.ipynb       # Training on Kaggle (GPU T4)
 vae_local.ipynb        # Local training + plots
+Reproduction_of_VAE.pdf # Final report PDF
 results/
   checkpoints/         # Saved model weights (.pt)
-  figures/             # Generated plots
 ```
 
 ## Key details

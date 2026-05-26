@@ -5,9 +5,7 @@
 !.gitignore
 !README.md
 
-# Keep report files
-!report.tex
-!project.pdf
+# Keep the reproduction PDF
 !Reproduction_of_VAE.pdf
 
 # Keep the 3 notebooks
@@ -33,6 +31,5 @@ results/checkpoints/results/
 results/checkpoints/results.zip
 results/data/
 
-# Explicitly ignore local/editor/assistant artifacts
+# Explicitly ignore local/editor artifacts
 .vscode/
-.claude/
