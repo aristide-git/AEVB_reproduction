@@ -1,0 +1,38 @@
+# Ignore everything by default
+*
+
+# Keep essential repo metadata/docs
+!.gitignore
+!README.md
+
+# Keep report files
+!report.tex
+!project.pdf
+!Reproduction_of_VAE.pdf
+
+# Keep the 3 notebooks
+!vae_figures.ipynb
+!vae_kaggle.ipynb
+!vae_local.ipynb
+
+# Keep source code
+!src/
+!src/**
+
+# Keep generated results that should be published
+!results/
+results/*
+!results/checkpoints/
+!results/checkpoints/*.pt
+!results/figures/
+!results/figures/*.png
+
+# Drop temporary/nested export artifacts inside results
+results/__results___files/
+results/checkpoints/results/
+results/checkpoints/results.zip
+results/data/
+
+# Explicitly ignore local/editor/assistant artifacts
+.vscode/
+.claude/
