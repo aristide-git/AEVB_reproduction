@@ -20,6 +20,14 @@ results/
   checkpoints/         # Saved model weights (.pt)
 ```
 
+## Notebooks
+- `vae_figures.ipynb`: generates and collects the reproduction figures.
+- `vae_kaggle.ipynb`: runs training on Kaggle and saves model weights in `results/checkpoints/`.
+- `vae_local.ipynb`: reruns the experiments locally, loads checkpoints, and produces the final plots.
+
+## Quick overview
+This project reproduces the VAE model from Kingma and Welling on MNIST and Frey Face. The notebooks train the model, save `.pt` weights, and generate ELBO curves, latent manifold plots, and samples. The PDF `Reproduction_of_VAE.pdf` summarizes the method and results.
+
 ## Key details
 - Optimizer: Adagrad, lr=0.01, weight_decay=1e-4
 - Architecture: 1 hidden layer (500 units, tanh), latent dims Nz ∈ {2, 5, 10, 20}
